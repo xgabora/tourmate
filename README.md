@@ -4,42 +4,28 @@ Web application TourMate made for WTECH_B 2023/24. Made by **Ján Pačuta** and 
 # Requirements met:
 
 ## 1. fáza projektu (max. 24 bodov)
-skice všetkých obrazoviek používateľského rozhrania pre dané prípady použitia (max. 6 bodov)
-šablóny vytvorené pre všetky požadované prípady použitia (max. 5b)
-responzívny dizajn (max. 5b)
-správne použitie HTML5 elementov (max. 4b)
-formátovanie a logická štruktúra zdrojového kódu, konzistencia/jednotná konvencia pri názvosloví identifikátorov (max. 2b)
-UML diagram fyzického dátového modelu (max. 2b)
+- skice všetkých obrazoviek používateľského rozhrania pre dané prípady použitia **(6 bodov)**
+- šablóny vytvorené pre všetky požadované prípady použitia **(5 bodov)**
+- responzívny dizajn **(5 bodov)**
+- správne použitie HTML5 elementov **(4 body)**
+- formátovanie a logická štruktúra zdrojového kódu, konzistencia/jednotná konvencia pri názvosloví identifikátorov **(2 body)**
+- UML diagram fyzického dátového modelu **(2 body)**
 
 ## 2. fáza projektu - Klientská časť (max. 14 bodov)
-zoznam produktov - 2 body
-filter
-preusporiadanie /order/
-stránkovanie
-detail produktu - 2 body
-pridanie/odobratie z košíka
-plnotextové vyhľadávanie nad katalógom produktov - 2 body
-košík - 4 body
-zoznam produktov
-zmena množstva
-odobratie
-doprava/platba
-údaje (s validáciou)
-prenositeľnosť košíka - 3 body
-zákazník - 1 bod
-registrácia, prihlásenie, odhlásenie
+- zoznam produktov (filter, preusporadúvanie, stránkovanie) **(2 body)**
+- detail produktu (pridanie/odobratie z košíka) **(2 body)**
+- plnotextové vyhľadávanie nad katalógom produktov **(2 body)**
+- košík (zoznam produktov, zmena množstva, odobratie, doprava/platba, zadanie údajov) **(4 body)**
+- prenositeľnosť košíka **(3 body)**
+- registrácia, prihlásenie, odhlásenie zákazníka **(1 bod)**
 
 ## 2. fáza projektu - Klientská časť (max. 7 bodov)
-- prihlásenie/odhlásenie (prihlásiť sa môžu používatelia s rolou ADMIN) - 1 bod
-- zoznam produktov - 1 bod
-- pridanie produktu - 2 body
-- s nahrávaním obrázkov
-- aspoň jeden číselník (viem si zo select-u vybrať napr. farbu)
-- odobratie produktu - 1 bod
-- fyzické vymazanie obrázku
-- úprava produktu - 2 body
-- s nahrávaním obrázkov
-- zoznam obrázkov s možnosťou odobratia obrázku
+- prihlásenie/odhlásenie s rolou Admin **(1 bod)**
+- zoznam produktov **(1 bod)**
+- pridanie produktu s nahrávaním obrázkov, aspoň jeden číselník/výber **(2 body)**
+- vymazanie produktu a/alebo obrázku produktu **(1 bod)**
+- úprava produktu, nahrávanie obrázku **(2 body)**
+  
 ## Dokumentácia (max. 3 body)
 - zadanie
 - diagram fyzického dátového modelu, v prípade zmien z 2. fázy, zdôvodniť zmenu - 1 bod
