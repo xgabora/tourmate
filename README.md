@@ -4,7 +4,7 @@ Web application TourMate made for WTECH_B 2023/24. Made by **Ján Pačuta** and 
 # Requirements met:
 
 ## 1. fáza projektu (max. 24 bodov)
-- skice všetkých obrazoviek používateľského rozhrania pre dané prípady použitia **(6 bodov)**
+- **DONE ✓** - skice všetkých obrazoviek používateľského rozhrania pre dané prípady použitia **(6 bodov)**
 - šablóny vytvorené pre všetky požadované prípady použitia **(5 bodov)**
 - responzívny dizajn **(5 bodov)**
 - správne použitie HTML5 elementov **(4 body)**
