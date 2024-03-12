@@ -42,4 +42,8 @@
         padding-left: 5%;
     }
 
+    .image-row {
+        flex-direction: column;
+    }
+
 }
