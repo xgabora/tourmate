@@ -11,6 +11,28 @@
     }
 
     .popular-tours {
-        padding: 14%;
+        padding: 20%;
+
+    }
+
+    .tour-card {
+        width: 85%;
+        margin: 10px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 10px 10px -2px rgba(0,0,0,0.5);
+    }
+
+    .tour-card-image {
+        width: 94%;
+        padding: 12px 12px;
+        border-radius: 8%;
+        overflow: hidden;
+    }
+
+    .tour-card-image img {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 }
