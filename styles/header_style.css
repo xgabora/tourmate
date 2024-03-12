@@ -11,7 +11,7 @@ header img{
     width: 150px;
 }
 
-.header_icon {
+.header-icon {
     visibility: hidden;
 }
 
@@ -59,7 +59,7 @@ header input{
     color: #fefefe;
 }
 
-.header_links {
+.header-links {
     margin: 0;
     font-size: 20px;
 }
@@ -69,23 +69,27 @@ header a {
     color: #fefefe;
 }
 
-.header_links {
+.header-links {
     display: flex; 
     align-items: center;
 }
 
-.header_links a {
+.header-links a {
     margin-right: 2vw; 
     text-decoration: none; 
     color: inherit; 
 }
 
-.header_links a:last-child {
+.header-links a:last-child {
     margin-right: 0;
 }
 
 .search{
     width: 19.5%;
+}
+
+.mobile-links {
+    display: none;
 }
 
 @media only screen and (max-width: 900px) {
@@ -105,11 +109,11 @@ header a {
         justify-content: space-between;
     }
 
-    .header_icon {
+    .header-icon {
         visibility: visible;
     }
 
-    .header_links{
+    .header-links{
         display: none;
     }
 
@@ -126,5 +130,39 @@ header a {
         background-color: #fefefe; /* Adjust as needed */
         transition: right 0.3s ease;
         z-index: 1000; /* Ensure it's above other content */
+    }
+
+    .desktop-links {
+        display: none; /* Hide desktop links on mobile */
+    }
+
+    .mobile-links {
+        display: none; /* Initially hidden */
+        position: fixed; /* Changed from absolute to fixed */
+        top: 72px; /* Adjust based on your header's height */
+        left: 0; /* Extend to the full width of the screen */
+        right: 0; /* Extend to the full width of the screen */
+        background-color: #fefefe;
+        z-index: 100; /* Ensure it appears above other content */
+        width: 100%;
+        text-align: left;
+        box-shadow: 0 4px 5px -2px rgba(0,0,0,0.25); /* Optional: Adds subtle shadow for depth */
+    }
+
+    .mobile-links a {
+        display: block;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .mobile-links a:hover {
+        background-color: #ddd;
+    }
+
+    /* Style the icon (optional) */
+    .header-icon {
+        display: block;
+        cursor: pointer;
     }
 }

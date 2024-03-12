@@ -15,10 +15,15 @@
 <body>
     <header>
         <section class="header_content">
-            <i class="fas fa-bars header_icon" id="header-icon"></i>
+            <i class="fas fa-bars header-icon"></i>
             <a href="index.html"><img src="images/TM_logo.png" class="logo"></a>
             <input type="text" placeholder="Search" class="search">
-            <section class="header_links" id="header-links">
+            <section class="header-links desktop-links">
+                <a href="pages/mytickets.html">Tours</a>
+                <a href="pages/nearme.html">Near me</a>
+                <a href="pages/faq.html">FAQ</a>
+            </section>
+            <section class="header-links mobile-links">
                 <a href="pages/mytickets.html">Tours</a>
                 <a href="pages/nearme.html">Near me</a>
                 <a href="pages/faq.html">FAQ</a>
@@ -45,38 +50,41 @@
 
     <footer>
         <a href="index.html"><img src="images/TM_logo.png" class="logo"></a>
-        <section class="col">
+        <section class="col1">
             <h3>Help</h3>
                 <a href="#">Contact</a>
                 <a href="#">FAQ</a>
                 <a href="#">Terns and conditions</a>
         </section>
-        <section class="col">
-            <h3>Genres</h3>
+        <h3>Genres</h3>
+        <section class="col2">
                 <a href="#">Pop</a>
                 <a href="#">Hip-hop</a>
                 <a href="#">Rock</a>
+            </section>
+            <section>
                 <a href="#">R&B</a>
                 <a href="#">EDM</a>
                 <a href="#">Metal</a>
+            </section>
         </section>
-        <section class="col">
+        <section class="col3">
             <h3>Follow us</h3>
             <a href="#">Instagram</a>
             <a href="#">Facebook</a>
             <a href="#">Tik-tok</a>
         </section>
     </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var headerIcon = document.getElementById('header-icon');
-            var headerLinks = document.getElementById('header_links');
-
-            headerIcon.addEventListener('click', function() {
-                Console.log("Klikol si kokotko")
-            });
-        });
-    </script>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var menuIcon = document.querySelector('.header-icon');
+        var mobileLinks = document.querySelector('.mobile-links');
+
+        menuIcon.addEventListener('click', function () {
+            // Toggle the display of the mobile menu
+            mobileLinks.style.display = mobileLinks.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
 </html>
