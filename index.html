@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/header_style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/mobile_style.css'>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +18,7 @@
         <section class="header_content">
             <i class="fas fa-bars header-icon"></i>
             <a href="index.html"><img src="images/TM_logo.png" class="logo"></a>
-            <input type="text" placeholder="Search" class="search">
+            <input type="text" placeholder="Search..." class="search">
             <section class="header-links desktop-links">
                 <a href="pages/mytickets.html">Tours</a>
                 <a href="pages/nearme.html">Near me</a>
@@ -36,12 +37,53 @@
         </section>
     </header>
 
-    <section class="big_banner">
-       <img src="images/big_banner_main.jpg">
+    <section class="homepage-banner">
+       <img src="images/homepage_banner.png">
     </section>
 
     <section class="popular">
-        <input type="text" placeholder="Search for event, artist or venue" class="big_search">    
+
+        <section class="homepage-search">
+            <input type="text" placeholder="Search for event, artist or venue..." class="homepage-search">
+        </section>
+
+        <section class="popular-tours">
+            <h1>Popular Tours</h1>
+            <div class="tours-container">
+                <div class="tour-card">
+                    <img src="./images/ts.png" class="tour-card-image" alt="Tour 1">
+                    <h2>TAYLOR SWIFT</h2>
+                    <h1>The Eras Tour</h1>
+                    <button class="tour-card-btn">
+                        <i class="fas fa-ticket"></i>GET TICKETS
+                    </button>
+                </div>
+                <div class="tour-card">
+                    <img src="./images/trav.png" class="tour-card-image" alt="Tour 2">
+                    <h2>TRAVIS SCOTT</h2>
+                    <h1>UTOPIA Tour</h1>
+                    <button class="tour-card-btn">
+                        <i class="fas fa-ticket"></i>GET TICKETS
+                    </button>
+                </div>
+                <div class="tour-card">
+                    <img src="./images/marika.png" class="tour-card-image" alt="Tour 3">
+                    <h2>MARIKA GOMBITOVÁ</h2>
+                    <h1>Stand Up Tour</h1>
+                    <button class="tour-card-btn">
+                        <i class="fas fa-ticket"></i>GET TICKETS
+                    </button>
+                </div>
+                <div class="tour-card">
+                    <img src="./images/kanye.png" class="tour-card-image" alt="Tour 4">
+                    <h2>KANYE WEST</h2>
+                    <h1>Vultures Tour</h1>
+                    <button class="tour-card-btn">
+                        <i class="fas fa-ticket"></i>GET TICKETS
+                    </button>
+                </div>
+            </div>
+        </section>
     </section>
 
     <section class="genres">

@@ -12,7 +12,7 @@ header img{
 }
 
 .header-icon {
-    visibility: hidden;
+    display: none !important;
 }
 
 .header_content {
@@ -31,7 +31,7 @@ header input{
 }
 
 .login {
-    color: black;
+    color: #2D033C;
     font-family: "Readex Pro", sans-serif;
     font-weight: 800;
     cursor: pointer;
@@ -97,12 +97,6 @@ header a {
         display: none;
     }
 
-    .big_banner img{
-        width: 100%;
-        height: 100%;
-        padding: 0px 0px;
-    }
-
     .header{
         display: flex;
         align-items: center;
@@ -110,15 +104,11 @@ header a {
     }
 
     .header-icon {
-        visibility: visible;
+        display: block !important;
     }
 
     .header-links{
         display: none;
-    }
-
-    .big_search{
-        width: 90%;
     }
 
     #header-links {

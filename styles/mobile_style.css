@@ -1,0 +1,12 @@
+@media only screen and (max-width: 900px) {
+    .homepage-banner img{
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px;
+        border-radius: 0;
+    }
+
+    .homepage-search{
+        width: 90%;
+    }
+}

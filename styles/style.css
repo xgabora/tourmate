@@ -1,73 +1,122 @@
 body {
-  font-family: "Readex Pro", sans-serif;
-  margin: 0;
-  background-color: #fefefe;
+    font-family: "Readex Pro", sans-serif;
+    margin: 0;
+    background-color: #fefefe;
 }
 
-.big_banner {
+.homepage-banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
 }
 
-.big_banner img{
-    width: 55%;
-    height: 90%;
+.homepage-banner img {
+    width: 60%;
     padding: 15px 20px;
     object-fit: cover;
+    border-radius: 3vw;
 }
 
 .popular {
     display: flex;
-    justify-content: center; 
-    align-items: start; 
+    flex-direction: column;
+    align-items: center;
     background-image: url("../images/TM background.svg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 1000px;
+    background-size: cover;
     color: #FEFEFE;
+    width: 100%; /* Set to desired width, can be in percentage or pixels */
+    margin: 0 auto; /* This centers the section on the page */
 }
 
-.popular h1{
+.popular h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
     display: block;
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.big_search {
+.homepage-search {
     margin-top: 20px;
     border-radius: 15px;
     border-width: 0px;
-    width: 45%;
+    width: 70%;
     height: 50px;
+    padding: 5px 5px 5px 20px; /* Adjust left padding if needed */
+    line-height: 50px; /* Same as the height for vertical centering */
+    font-size: 20px;
+    text-align: center; /* For horizontal centering */
 }
 
-.genres{
+.genres {
     height: 500px;
 }
 
-footer{
-    background-color: #2D033C;
-    padding: 70px 12%;
-    color: #FEFEFE;
+.tours-container {
+    margin-top: 0px;
+    margin-bottom: 50px;
     display: flex;
-    text-decoration: none;
+    align-items: flex-start; /* Align items to the start (left) */
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line on smaller screens */
+    justify-content: flex-start; /* Align the items to the left */
+
 }
 
-footer section {
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: left;
+.tour-card {
+    margin: 10px; /* Adjust margin as needed */
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    /* Other styles... */
 }
 
-footer img{
-    margin-top: 5px;
-    width: 300px;
+.tour-card:hover {
+    background: #FEFEFE;
+    transform: scale(1.03);
+    transition: transform 0.2s ease-in-out;
 }
 
-footer a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
+.tour-card h2 {
+    color: #666666;
+    padding-left: 12px;
+    font-size: 14px;
+    margin: 0px;
 }
 
+.tour-card h1 {
+    color: #2D033C;
+    padding-left: 12px;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+.tour-card-btn {
+    color: #FFFFFF; /* Set text color to white */
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    background-image: linear-gradient(135deg, #8050C2, #2D033C); /* Gradient at 45 degrees */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 90%;
+    margin: 10px 10px;
+}
+
+.tour-card-btn i {
+    margin-right: 5px;
+}
+
+.tour-card-btn:hover {
+    background-image: linear-gradient(135deg, #2f105b, #030003); /* Gradient at 45 degrees */
+}
+
+.tour-card-image {
+    width: 180px;
+    padding: 12px 12px;
+    border-radius: 8%;
+}
