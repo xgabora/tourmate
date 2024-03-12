@@ -24,15 +24,22 @@
     }
 
     .tour-card-image {
-        width: 94%;
-        padding: 12px 12px;
+        width: 90%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
         border-radius: 8%;
         overflow: hidden;
     }
 
-    .tour-card-image img {
-        width: 100%;
-        height: auto;
-        display: block;
+    .tour-card-btn {
+        padding-right: 5%;
+        padding-left: 5%;
     }
+
+    .tour-card-btn {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
 }
