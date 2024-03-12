@@ -15,9 +15,10 @@
 <body>
     <header>
         <section class="header_content">
+            <i class="fas fa-bars header_icon" id="header-icon"></i>
             <a href="index.html"><img src="images/TM_logo.png" class="logo"></a>
             <input type="text" placeholder="Search" class="search">
-            <section class="header_links">
+            <section class="header_links" id="header-links">
                 <a href="pages/mytickets.html">Tours</a>
                 <a href="pages/nearme.html">Near me</a>
                 <a href="pages/faq.html">FAQ</a>
@@ -52,7 +53,6 @@
         </section>
         <section class="col">
             <h3>Genres</h3>
-            <section>
                 <a href="#">Pop</a>
                 <a href="#">Hip-hop</a>
                 <a href="#">Rock</a>
@@ -67,5 +67,16 @@
             <a href="#">Tik-tok</a>
         </section>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var headerIcon = document.getElementById('header-icon');
+            var headerLinks = document.getElementById('header_links');
+
+            headerIcon.addEventListener('click', function() {
+                Console.log("Klikol si kokotko")
+            });
+        });
+    </script>
 </body>
 </html>
