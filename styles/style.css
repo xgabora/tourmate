@@ -253,7 +253,7 @@ footer a:hover {
 .popular-tour-card {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 65%; /* Set the width of the card */
     border-radius: 10px; /* Adjust the border radius as needed */
     background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
@@ -267,11 +267,16 @@ footer a:hover {
     margin-bottom: 30px;
 }
 
+.popular-tour-card-description {
+    max-width: 100%;
+}
+
 .popular-tour-left {
     display: flex;
     flex-direction: row; /* Align children in a row */
     align-items: center; /* Vertically center-align children */
     margin-left: 4%;
+    max-width: 60%; /* Adjust this value as needed */
 }
 
 .popular-tour-left > h1,
@@ -283,6 +288,7 @@ footer a:hover {
     flex-direction: column; /* Stack the content of each child in a column */
     justify-content: center; /* Center the content vertically */
 }
+
 
 .popular-tour-left > img {
     width: 180px; /* Adjust image width as needed */
@@ -318,12 +324,13 @@ footer a:hover {
 }
 
 .popular-tour-card-description p {
-    max-width: 16%; /* Adjust this value as needed for your layout */
+    max-width: 45%; /* Adjust this value as needed for your layout */
     text-align: justify; /* This will justify your paragraph text */
     /* Additional styling for paragraph, if needed */
     margin: 6px 0 0 0; /* Example margin, adjust as needed */
     line-height: 1.2; /* Adjusts the line height for better readability */
     font-size: 12px;
+    word-wrap: break-word;
 }
 
 .dark-button {
@@ -404,7 +411,7 @@ footer a:hover {
 .tour-detail-header img {
     width: 280px; /* Ensures image does not overflow its container */
     height: auto;
-    border-radius: 2vw;
+    border-radius: 1.5vw;
 }
 
 .tour-detail-header {
@@ -458,7 +465,9 @@ footer a:hover {
     background: #fefefe;
     margin-top: 30px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow     for depth */
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .tour-detail-left {
@@ -485,6 +494,7 @@ footer a:hover {
 
 .tour-detail-button {
     align-items: center;
+    margin-right: 2%;
 }
 
 .tour-detail-left h3 {
@@ -504,6 +514,10 @@ footer a:hover {
 
 .tour-detail-datetime {
     margin-left: 10%;
+}
+
+.tour-detail-venue h1 {
+    white-space: nowrap;
 }
 
 .terms-container {
@@ -527,4 +541,45 @@ footer a:hover {
     color: #2D033C;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.lightblue-card.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns children (form elements) in the center */
+    justify-content: center; /* Centers content vertically */
+    padding-top: 50px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #f0faff; /* Example background color */
+    margin: auto;
+    width: 35%;
+    text-align: center;
+}
+
+.lightblue-card.login-form input[type="text"],
+.lightblue-card.login-form input[type="password"] {
+    width: 50%; /* Full width of the container */
+    padding: 15px;
+    margin-bottom: 10px; /* Space between elements */
+    border-radius: 12px; /* Rounded corners */
+    border: 1px solid #999999;
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+}
+
+.lightblue-card.login-form button.dark-button {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.lightblue-card.login-form p span {
+    display: inline; /* Keeps the span inline with the paragraph */
+}
+
+.lightblue-card.login-form a {
+    color: #2D033C; /* Link color */
+}
+
+.login-heading {
+    margin-left: 20%;
 }
