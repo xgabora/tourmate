@@ -447,3 +447,24 @@ footer a:hover {
     line-height: 1.2; /* Adjusts the line height for better readability */
     font-size: 18px;
 }
+
+.terms-container {
+    background-image: url("../images/TM_background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#fefefe;
+}
+
+.terms-text {
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:20px  auto 0;
+}
+
+.terms-header {
+    margin-left: 15%;
+    font-size: 35px;
+    color: #2D033C;
+}
