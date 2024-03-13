@@ -263,7 +263,6 @@ footer a:hover {
     border: 1px solid #2D033C; /* Adds a 1px black stroke */
     box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
     margin-bottom: 30px;
-
 }
 
 .popular-tour-left {
@@ -375,4 +374,76 @@ footer a:hover {
 
 .light-button:hover {
     background-image: linear-gradient(135deg, #2f105b, #030003); /* Gradient at 45 degrees */
+}
+
+.lightblue-card {
+    width: 65%; /* Set the width of the card */
+    border-radius: 10px; /* Adjust the border radius as needed */
+    background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
+    /* Additional background properties if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border: 1px solid #2D033C; /* Adds a 1px black stroke */
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.tour-detail-header {
+    display: flex;
+    flex-direction: column; /* Stacks children in a column */
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+}
+
+.tour-detail-header img {
+    width: 280px; /* Ensures image does not overflow its container */
+    height: auto;
+    border-radius: 2vw;
+}
+
+.tour-detail-header {
+    display: flex;
+    flex-direction: row; /* Aligns children in a row */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+}
+
+.tour-detail-description {
+    display: flex;
+    flex-direction: column; /* Stacks description items in a column */
+    align-items: start; /* Aligns description items to the start */
+    margin-left: 5%;
+}
+
+.tour-detail-description h1, h2 {
+    margin: 0;
+}
+
+.tour-detail-card {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tour-detail-description h1 {
+    font-size: 56px;
+    color: #2D033C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tour-detail-description h2 {
+    font-size: 16px;
+    color: #666666;
+}
+
+.tour-detail-description p {
+    text-align: justify; /* This will justify your paragraph text */
+    margin: 6px 0 0 0; /* Example margin, adjust as needed */
+    line-height: 1.2; /* Adjusts the line height for better readability */
+    font-size: 18px;
 }
