@@ -179,8 +179,9 @@ footer {
     justify-content: space-between;
     align-items: start;
     padding: 3% 10%;
-    background-color: #2D033C; /* Change as needed */
-    color: #FEFEFE; /* Text color */
+    background-color: #2D033C;
+    color: #FEFEFE;
+    bottom: 0px;
 }
 
 footer .logo {

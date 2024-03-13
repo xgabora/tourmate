@@ -20,12 +20,12 @@
             <a href="index.html"><img src="images/TM_logo.png" class="logo"></a>
             <input type="text" placeholder="Search..." class="search">
             <section class="header-links desktop-links">
-                <a href="pages/mytickets.html">Tours</a>
+                <a href="pages/tours.html">Tours</a>
                 <a href="pages/nearme.html">Near me</a>
                 <a href="pages/faq.html">FAQ</a>
             </section>
             <section class="header-links mobile-links">
-                <a href="pages/mytickets.html">Tours</a>
+                <a href="pages/tours.html">Tours</a>
                 <a href="pages/nearme.html">Near me</a>
                 <a href="pages/faq.html">FAQ</a>
             </section>
@@ -123,8 +123,8 @@
         <section class="col1">
             <h3>Help</h3>
                 <a href="#">Contact</a>
-                <a href="#">FAQ</a>
-                <a href="#">Terns and conditions</a>
+                <a href="pages/faq.html">FAQ</a>
+                <a href="pages/termscontditions.html">Terns and conditions</a>
         </section>
         <section class="col2">
             <h3>Genres</h3>
@@ -151,15 +151,5 @@
         </section>
     </footer>
 </body>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var menuIcon = document.querySelector('.header-icon');
-        var mobileLinks = document.querySelector('.mobile-links');
-
-        menuIcon.addEventListener('click', function () {
-            // Toggle the display of the mobile menu
-            mobileLinks.style.display = mobileLinks.style.display === 'block' ? 'none' : 'block';
-        });
-    });
-</script>
+<script src="script/header_menu.js"></script>
 </html>
