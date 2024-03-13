@@ -253,7 +253,7 @@ footer a:hover {
 .popular-tour-card {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 65%; /* Set the width of the card */
     border-radius: 10px; /* Adjust the border radius as needed */
     background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
@@ -267,11 +267,16 @@ footer a:hover {
     margin-bottom: 30px;
 }
 
+.popular-tour-card-description {
+    max-width: 100%;
+}
+
 .popular-tour-left {
     display: flex;
     flex-direction: row; /* Align children in a row */
     align-items: center; /* Vertically center-align children */
     margin-left: 4%;
+    max-width: 60%; /* Adjust this value as needed */
 }
 
 .popular-tour-left > h1,
@@ -283,6 +288,7 @@ footer a:hover {
     flex-direction: column; /* Stack the content of each child in a column */
     justify-content: center; /* Center the content vertically */
 }
+
 
 .popular-tour-left > img {
     width: 180px; /* Adjust image width as needed */
@@ -318,12 +324,13 @@ footer a:hover {
 }
 
 .popular-tour-card-description p {
-    max-width: 16%; /* Adjust this value as needed for your layout */
+    max-width: 45%; /* Adjust this value as needed for your layout */
     text-align: justify; /* This will justify your paragraph text */
     /* Additional styling for paragraph, if needed */
     margin: 6px 0 0 0; /* Example margin, adjust as needed */
     line-height: 1.2; /* Adjusts the line height for better readability */
     font-size: 12px;
+    word-wrap: break-word;
 }
 
 .dark-button {
@@ -404,7 +411,7 @@ footer a:hover {
 .tour-detail-header img {
     width: 280px; /* Ensures image does not overflow its container */
     height: auto;
-    border-radius: 2vw;
+    border-radius: 1.5vw;
 }
 
 .tour-detail-header {
@@ -458,7 +465,9 @@ footer a:hover {
     background: #fefefe;
     margin-top: 30px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow     for depth */
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .tour-detail-left {
@@ -485,6 +494,7 @@ footer a:hover {
 
 .tour-detail-button {
     align-items: center;
+    margin-right: 2%;
 }
 
 .tour-detail-left h3 {
@@ -504,6 +514,10 @@ footer a:hover {
 
 .tour-detail-datetime {
     margin-left: 10%;
+}
+
+.tour-detail-venue h1 {
+    white-space: nowrap;
 }
 
 .terms-container {
