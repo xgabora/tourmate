@@ -1,0 +1,75 @@
+.faq {
+    padding: 15px 20%;
+    color:#fefefe;
+}
+
+.question {
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15% 10px 10px;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: transparent;
+    text-align: justify;
+}
+
+.question {
+    position: relative;
+}
+
+.question::after {
+    content: "\27A4";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    transition: transform 0.3s ease;
+}
+
+.faq-container {
+    background-image: url("../images/TM_background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#fefefe;
+    margin-bottom: 0px;
+}
+
+input:checked + .question::after {
+    transform: translateY(-50%) rotate(270deg);
+}
+
+#faq-1:checked ~ .answer {
+    display: block;
+}
+
+#faq-2:checked ~ .answer {
+    display: block;
+}
+
+#faq-3:checked ~ .answer {
+    display: block;
+}
+
+#faq-4:checked ~ .answer {
+    display: block;
+}
+
+#faq-5:checked ~ .answer {
+    display: block;
+}
+
+#faq-6:checked ~ .answer {
+    display: block;
+}
+
+#faq-7:checked ~ .answer {
+    display: block;
+}
