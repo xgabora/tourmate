@@ -542,3 +542,44 @@ footer a:hover {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.lightblue-card.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns children (form elements) in the center */
+    justify-content: center; /* Centers content vertically */
+    padding-top: 50px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #f0faff; /* Example background color */
+    margin: auto;
+    width: 35%;
+    text-align: center;
+}
+
+.lightblue-card.login-form input[type="text"],
+.lightblue-card.login-form input[type="password"] {
+    width: 50%; /* Full width of the container */
+    padding: 15px;
+    margin-bottom: 10px; /* Space between elements */
+    border-radius: 12px; /* Rounded corners */
+    border: 1px solid #999999;
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+}
+
+.lightblue-card.login-form button.dark-button {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.lightblue-card.login-form p span {
+    display: inline; /* Keeps the span inline with the paragraph */
+}
+
+.lightblue-card.login-form a {
+    color: #2D033C; /* Link color */
+}
+
+.login-heading {
+    margin-left: 20%;
+}

@@ -45,6 +45,10 @@
     .image-row {
         flex-direction: column;
     }
+
+    .lightblue-card.login-form {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 845px) {
