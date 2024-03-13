@@ -74,6 +74,10 @@ header a {
     align-items: center;
 }
 
+.header-links a:hover {
+    color: #2D033C;
+}
+
 .header-links a {
     margin-right: 2vw; 
     text-decoration: none; 

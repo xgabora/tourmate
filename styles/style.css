@@ -17,6 +17,11 @@ body {
     border-radius: 3vw;
 }
 
+.homepage-banner img:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
 .popular {
     display: flex;
     flex-direction: column;
