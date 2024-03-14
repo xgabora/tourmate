@@ -566,9 +566,24 @@ footer a:hover {
     box-shadow: 0 3px 3px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
 }
 
+#recover-email-form {
+    width: 100%;
+}
+
+.recover-form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
 .lightblue-card.login-form button.dark-button {
     width: 30%;
     margin: 0 auto;
+}
+
+.lightblue-card.login-form button.send-mail-button {
+    width: 100%;
 }
 
 .lightblue-card.login-form p span {
