@@ -49,6 +49,12 @@
     .lightblue-card.login-form {
         width: 80%;
     }
+
+    .login-heading {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (max-width: 845px) {
