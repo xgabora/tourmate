@@ -264,3 +264,20 @@
 .fa-shopping-cart {
     margin-right: 5px; /* Space between icon and number */
 }
+
+.heading-section {
+    display:flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading-section h1 {
+    font-size: 36px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}

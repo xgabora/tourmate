@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/header_style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/mobile_style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/add_event_style.css'>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +38,52 @@
     </section>
 </header>
 
-<section style="height: 1000px">
+<section class="card-heading">
+    <h1 class="add-event-heading">Add an event</h1>
+</section>
+
+<section class="lightblue-card">
+    <section class="input-fields">
+        <!-- Column 1 -->
+        <section class="column1">
+            <label for="artist-name">Artist Name:</label>
+            <input type="text" id="artist-name">
+
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name">
+
+            <label for="venue">Venue:</label>
+            <select id="venue">
+                <option value="venue1">TIPOS Aréna</option>
+                <option value="venue2">Wembley Stadium</option>
+                <option value="venue3">O2 Aréna</option>
+            </select>
+
+            <label for="event-datetime">Event Date & Time:</label>
+            <input type="datetime-local" id="event-datetime">
+
+            <label for="regular-price">Regular Ticket Price:</label>
+            <input type="number" id="regular-price">
+
+            <label for="vip-price">VIP Ticket Price:</label>
+            <input type="number" id="vip-price">
+        </section>
+
+        <!-- Column 2 -->
+        <section class="column2">
+            <label for="description">Description:</label>
+            <textarea id="description"></textarea>
+
+            <label for="picture1">Picture 1:</label>
+            <input type="file" id="picture1">
+
+            <label for="picture2">Picture 2:</label>
+            <input type="file" id="picture2">
+        </section>
+    </section>
+
+    <button class="dark-button" type="submit">+ ADD EVENT</button>
+</section>
 
 </section>
 
