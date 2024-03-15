@@ -118,6 +118,115 @@
     padding-left: 10%;
 }
 
+.events-search-bar {
+    margin-top: 20px;
+    border-radius: 15px;
+    border-width: 0;
+    width: 75%;
+    height: 50px;
+    padding: 5px 5px 5px 30px; /* Adjust left padding if needed */
+    line-height: 50px; /* Same as the height for vertical centering */
+    font-size: 20px;
+    text-align: left; /* For horizontal centering */
+}
+
 .events-search input {
     box-shadow: 0 6px 6px -2px rgba(0,0,0,0.3); /* Optional: Adds subtle shadow for depth */
+}
+
+.below-search-bar {
+    display: flex; /* This makes it a flex container */
+    justify-content: space-between; /* This spreads out the children (left and right) */
+    align-items: center; /* This vertically centers the children */
+    width: 78%;
+    padding-left: 10%;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+.filters-chosen,
+.filters-dropdown {
+    display: flex; /* This makes them flex containers too */
+    align-items: center; /* This vertically centers their children */
+}
+
+.transparent-button,
+.more-filters {
+    margin: 12px; /* Add margin for spacing between buttons if needed */
+}
+
+.transparent-button {
+    border: 1px solid #2D033C; /* Solid border with 1px thickness */
+    background-color: transparent; /* Transparent background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 8px 12px; /* Top-bottom and left-right padding */
+    text-align: center; /* Center the text inside */
+    font-size: 1rem; /* Set the font size */
+    font-weight: 500;
+    margin: 5px; /* Add some margin around buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.filters-dropdown {
+    text-decoration: underline;
+}
+
+.filters {
+    display: none; /* Hide filters by default */
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    padding-left: 11%;
+    margin-bottom: 4vh;
+}
+
+.filters-left {
+    display: flex;
+    flex-direction: row;
+}
+
+/* First Column: Sliders */
+.sliders {
+    display: flex;
+    flex-direction: column; /* Stack sliders vertically */
+    margin-right: 20px; /* Add some space between the columns */
+}
+
+.sliders label {
+    display: block; /* Ensures label is above the slider */
+    margin-bottom: 5px; /* Space between label and slider */
+}
+
+/* Second Column: Order Buttons */
+.order-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 10px; /* Space between buttons */
+    align-items: center; /* Align items vertically */
+}
+
+.filter-button {
+    color: #2D033C; /* Set text color to white */
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    background: #FEFEFE;
+    border: 1px solid #2D033C;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin: 1px 10px;
+}
+
+/* Third Column: Genre Picker */
+.genre-picker {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for genres */
+    grid-gap: 10px; /* Space between genre buttons */
+    margin-left: 20px; /* Add some space between the columns */
+}
+
+.genre-picker button {
+    width: 100%; /* Full width of the column */
 }

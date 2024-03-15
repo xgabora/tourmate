@@ -40,12 +40,47 @@
 
 <section class="events-header">
     <h1>Find an event for you</h1>
-    <section class="filtering-options">
     <section class="events-search">
-        <input type="text" placeholder="Search for event, artist or venue..." class="homepage-search">
+        <input type="text" placeholder="Search for event, artist or venue..." class="events-search-bar">
     </section>
+
+    <section class="below-search-bar">
+        <section class="filters-chosen">
+            <p class="transparent-button">DISTANCE <50KM</p>
+            <p class="transparent-button">ANY GENRE</p>
+            <p class="transparent-button">ANY PRICE</p>
+        </section>
+        <section class="filters-dropdown">
+            <p class="more-filters">SHOW FILTERING OPTIONS</p>
+        </section>
     </section>
-    <p>filters</p>
+    <section class="filters">
+        <section class="filters-left">
+            <section class="sliders">
+                <label for="distance-slider">Max Distance to Venue</label>
+                <input type="range" id="distance-slider" name="distance">
+
+                <label for="price-slider">Max Price</label>
+                <input type="range" id="price-slider" name="price">
+            </section>
+
+            <section class="order-buttons">
+                <button class="filter-button">ASC</button>
+                <button class="filter-button">DESC</button>
+                <button class="filter-button">ASC</button>
+                <button class="filter-button">DESC</button>
+            </section>
+        </section>
+
+        <section class="genre-picker">
+            <button class="filter-button">POP</button>
+            <button class="filter-button">ROCK</button>
+            <button class="filter-button">HIP-HOP</button>
+            <button class="filter-button">R&B</button>
+            <button class="filter-button">METAL</button>
+            <button class="filter-button">DANCE</button>
+        </section>
+    </section>
 </section>
 
 <section class="events-section">
@@ -170,5 +205,11 @@
     </section>
 </footer>
 </body>
+<script>
+    document.querySelector('.more-filters').addEventListener('click', function() {
+        var filters = document.querySelector('.filters');
+        filters.style.display = filters.style.display === 'none' ? 'flex' : 'none';
+    });
+</script>
 <script src="../script/header_menu.js"></script>
 </html>
