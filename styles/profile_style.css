@@ -1,10 +1,110 @@
-.profile-content {
-
+.lightblue-card {
+    align-items: center;
 }
 
 .profile-pic {
     border-radius: 100%;
-    width: 40%;
+    width: 30%;
     margin-left: 6%;
     margin-top: 4%;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2%;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+}
+
+.profile-content h2 {
+    color: #666666;
+    font-size: 14px;
+}
+
+.profile-content h1 {
+    color: #2D033C;
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.profile-info {
+    flex-grow: 1;
+    margin-left: 6%;
+}
+
+.info-row {
+    margin-bottom: 10px;
+}
+
+.info-row p {
+    margin: 0;
+}
+
+.change-link {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #2D033C;
+}
+
+.change-section {
+    display: none;
+    margin-top: 10px;
+}
+
+.change-section input[type="text"],
+.change-section input[type="file"] {
+    margin-right: 10px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+.profile-actions button {
+    width: 20%;
+}
+
+.red-button {
+    color: #FEFEFE; /* Set text color to white */
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    background: darkred;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 90%;
+    margin: 4px 18px;
+}
+
+.red-button i {
+    margin-right: 5px;
+}
+
+.red-button:hover {
+    background: #460404;
+    color: #FEFEFE;
+}
+
+.change-section {
+    display: none;
 }
