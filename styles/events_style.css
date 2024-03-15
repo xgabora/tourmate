@@ -230,3 +230,37 @@
 .genre-picker button {
     width: 100%; /* Full width of the column */
 }
+
+.fab {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+    background-color: white; /* Blue background */
+    color: #2D033C; /* White text and icon */
+    border: 2px solid #2D033C;
+    padding: 15px 15px 15px 17px;
+    border-radius: 50%; /* Circular shape */
+    text-align: center; /* Center the content */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* A little shadow for better visibility */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 20px; /* Icon size */
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -2px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-shopping-cart {
+    margin-right: 5px; /* Space between icon and number */
+}
