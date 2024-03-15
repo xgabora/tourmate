@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/header_style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/mobile_style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/profile_style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/event_page_style.css'>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -61,45 +62,34 @@
         <h1>Bratislava - Tipos Aréna</h1>
     </section>
 
-    <section class="event-controls">
+    <section class="event-controls dashboard">
         <!-- Stadium Layout -->
-        <section class="stadium-layout">
-            <div class="row">
-                <div class="sector" id="sector-A">A</div>
-            </div>
-            <div class="row">
-                <div class="sector" id="sector-C">C</div>
-                <div class="sector" id="sector-D">D</div>
-                <div class="sector vip" id="sector-VIP">VIP</div>
-                <div class="stage">STAGE</div>
-            </div>
-            <div class="row">
-                <div class="sector" id="sector-B">B</div>
-            </div>
+        <section class="col1">
+            <h1>Event statistics</h1>
+            <p>Event page visits: 2 950</p>
+            <p>Regular tickets sold: 1 220 / 1 500</p>
+            <p>VIP tickets sold: 25 / 80</p>
         </section>
-        <!-- Ticket Selection -->
-        <section class="ticket-selection">
-            <div class="ticket-info">
-                <h2>SECTOR A - REGULAR</h2>
-                <h1>30,00€</h1>
-                <p>(2 x 15,00€)</p>
+        <section class="col2">
+            <h1>Share event</h1>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
             </div>
-            <div class="ticket-quantity">
-                <button class="quantity-btn" id="decrease">-</button>
-                <input type="text" id="ticket-amount" value="2">
-                <button class="quantity-btn" id="increase">+</button>
-            </div>
-            <button class="dark-button">+ ADD TO CART</button>
         </section>
     </section>
 
     <!-- Event Action Buttons -->
     <section class="event-action-buttons">
         <button class="light-button">
-            BACK TO EVENTS
+            BACK TO MY EVENTS
+        </button>
+        <button class="red-button">
+            REMOVE EVENT
         </button>
         <button class="dark-button">
-            PROCEED TO CHECKOUT
+            EDIT EVENT
         </button>
     </section>
 </section>
@@ -138,17 +128,4 @@
 </footer>
 </body>
 <script src="../script/header_menu.js"></script>
-<script>
-    document.querySelectorAll('.sector').forEach(sector => {
-        sector.addEventListener('click', () => {
-            // Remove selected class from all sectors
-            document.querySelectorAll('.sector').forEach(s => s.classList.remove('selected'));
-            // Add selected class to clicked sector
-            sector.classList.add('selected');
-            // Update ticket info based on selected sector
-            document.querySelector('.ticket-info h2').textContent = `SECTOR ${sector.textContent} - REGULAR`;
-        });
-    });
-
-</script>
 </html>

@@ -1,0 +1,239 @@
+.lightblue-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.above-event-bar,
+.event-bar,
+.event-controls,
+.event-action-buttons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.event-bar {
+    background-image: url("../images/TM background.svg");
+    background-size: cover;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    color: #FEFEFE;
+}
+
+.white {
+    color: #fefefe;
+    border-left: 1px solid #FFF; /* Example: solid black line */
+}
+
+/* Above Event Bar */
+.above-event-bar > img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8%;
+}
+
+.above-event-bar h2 {
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+}
+
+.above-event-bar h1 {
+    font-size: 42px;
+    color: #2D033C;
+    margin-top: 8px;
+    font-weight: 1000;
+}
+
+.event-bar h1 {
+    font-size: 24px;
+}
+
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-date-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* Event Controls */
+.event-controls {
+    justify-content: space-between;
+}
+
+.stadium-layout {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.sector {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sector.vip {
+    background-color: gold;
+}
+
+.ticket-selection {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.ticket-quantity {
+    display: flex;
+}
+
+.add-to-cart {
+    margin-left: 10px;
+}
+
+.event-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.stadium-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General sector styling */
+.sector {
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* A and B sectors styling */
+#sector-A, #sector-B {
+    flex-grow: 2; /* Makes A and B sectors wider */
+    padding: 15px 110px; /* Less height, more width */
+    text-align: left;
+}
+
+/* C and D sectors styling */
+#sector-C {
+    flex-grow: 1;
+    padding: 80px 20px; /* More height, standard width */
+}
+
+#sector-D {
+    flex-grow: 1;
+    padding: 80px 65px; /* More height, standard width */
+}
+
+/* VIP sector styling */
+#sector-VIP {
+    flex-grow: 0; /* Prevent VIP from growing */
+    padding: 80px 5px; /* More height, less width */
+    background-color: gold;
+}
+
+.stage {
+    background-color: #ccc; /* Color for the stage area */
+    cursor: default;
+    flex-grow: 1;
+    padding: 80px 25px;
+    border: 1px solid #000;
+}
+
+/* Adjustments if the hover effect for sector selection is needed */
+.sector:hover, .sector.selected {
+    background-color: #2D033C; /* Or any color indicating selection */
+    color: white;
+}
+
+.sector:hover, .sector.selected {
+    background-color: #2D033C; /* Or any color indicating selection */
+    color: white;
+}
+
+.vip {
+    background-color: gold;
+}
+
+.ticket-selection {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-info h2, .ticket-info h1, .ticket-info p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.ticket-quantity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.quantity-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.quantity-btn:hover {
+    background-color: #ccc;
+}
+
+#ticket-amount {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.social-icons a {
+    color: #2D033C;
+}
+
+.col1 h1, .col2 h1 {
+    font-size: 30px;
+    color: #2D033C;
+    margin-bottom: 2vh;
+}
+
+.dashboard {
+    align-items: flex-start;
+}
