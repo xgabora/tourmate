@@ -81,6 +81,13 @@
         margin: 0;
         text-align: center;
     }
+
+    .lightblue-card {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 20px; /* Adjust margins */
+        padding: 10px; /* Add some padding */
+    }
+
 }
 
 @media only screen and (max-width: 845px) {
