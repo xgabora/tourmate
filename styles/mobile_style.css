@@ -83,11 +83,36 @@
     }
 
     .lightblue-card {
-        width: 90%; /* Adjust width for smaller screens */
-        margin: 20px; /* Adjust margins */
-        padding: 10px; /* Add some padding */
+        width: 90%;
+        margin: 20px;
+        padding: 10px;
     }
 
+    .below-search-bar, .filters, .filters-chosen, .event-detail-event-card, .event-detail-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-detail-venue{
+        text-align: center;
+    }
+
+    .tour-detail-datetime {
+        margin-left: 0;
+    }
+
+    .event-detail-event-card img {
+        width: 50% !important;
+    }
+
+    .vertical-delimiter {
+        display: none;
+    }
+
+    .events-search-bar::placeholder {
+        font-size: 80%;
+    }
 }
 
 @media only screen and (max-width: 845px) {
