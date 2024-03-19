@@ -65,15 +65,15 @@
         align-items: center;
     }
 
-    .profile-pic {
-        display: none;
-    }
-
-    .profile-content {
+    .profile-content, .profile-actions {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         align-items: center;
         width: 100%;
+    }
+
+    .profile-actions button {
+        width: 80% !important;
     }
 
     .profile-info {
@@ -94,7 +94,13 @@
     }
 
     .event-detail-venue{
-        text-align: center;
+        text-align: center !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .ticket-details {
+        text-align: left !important;
     }
 
     .tour-detail-datetime {
@@ -162,9 +168,20 @@
         align-items: center;
         text-align: center;
     }
-}
 
-@media only screen and (max-width: 845px) {
+    .input-fields {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-content {
+        display: grid;
+        grid-template-columns: none !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     footer {
         display: flex;
         flex-direction: column;

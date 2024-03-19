@@ -55,7 +55,6 @@ button[type="submit"]:hover {
 }
 
 .lightblue-card {
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
