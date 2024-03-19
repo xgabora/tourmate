@@ -8,6 +8,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/header_style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/mobile_style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/events_style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/checkout_style.css'>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,8 +39,75 @@
     </section>
 </header>
 
-<section style="height: 1000px">
+<section class="heading-section">
+    <h1>Checkout</h1>
+</section>
 
+<section class="cart-summary">
+    <section class="events-listing">
+        <section class="event-detail-event-card">
+            <section class="event-detail-left">
+                <section class="tour-detail-datetime">
+                    <h3>15:00</h3>
+                    <h2>MAR</h2>
+                    <h1>15</h1>
+                </section>
+                <div class="vertical-delimiter"></div>
+                <img src="../images/ts.png" class="event-detail-image" alt="Tour 1">
+                <section class="event-detail-venue">
+                    <h2>TAYLOR SWIFT | The Eras Tour</h2>
+                    <h1>Bratislava • TIPOS Aréna</h1>
+                </section>
+            </section>
+            <section class="ticket-details-box">
+                <section class="ticket-details">
+                    <h2>SECTION A</h2>
+                    <h1>2x REGULAR</h1>
+                    <p>GET MORE TICKETS</p>
+                </section>
+                <section class="remove-ticket">
+                    <h1>X</h1>
+                </section>
+            </section>
+        </section>
+    </section>
+    <section class="price">
+        <h2>TOTAL:</h2>
+        <h1>30.00 €</h1>
+    </section>
+</section>
+
+<section class="checkout-form">
+    <p>Pick a concert > Add an Address > Select Payment > Buy the tickets > Enjoy!</p>
+    <section class="form-content">
+        <section class="col1">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name">
+
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" placeholder="Email">
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone">
+
+            <label for="voucher">Voucher Code</label>
+            <input type="text" id="voucher" name="voucher" placeholder="Voucher Code">
+        </section>
+
+        <section class="col2">
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street" placeholder="Street">
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="City">
+
+            <label for="postal">Postal Code</label>
+            <input type="text" id="postal" name="postal" placeholder="Postal Code">
+
+            <label for="but" style="visibility: hidden">button label</label>
+            <button class="dark-button" type="button">Select Payment</button>
+        </section>
+    </section>
 </section>
 
 <footer>

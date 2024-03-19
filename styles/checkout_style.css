@@ -1,0 +1,126 @@
+.cart-summary {
+    background-image: url("../images/TM background.svg");
+    background-size: cover;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.event-detail-event-card {
+    padding: 12px;
+}
+
+.ticket-details {
+    margin-right: 25%;
+    text-align: right;
+}
+
+.event-detail-venue {
+    text-align: left;
+}
+
+.ticket-details h2 {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.ticket-details h1 {
+    color: #2D033C;
+    font-size: 22px;
+    margin: 0;
+}
+
+.ticket-details p {
+    color: #666;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.ticket-details-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    padding-right: 8%;
+}
+
+.remove-ticket h1 {
+    font-size: 28px;
+    text-decoration: underline;
+    color: darkred;
+}
+
+.remove-ticket h1:hover {
+    cursor: pointer;
+    color: #4f0404;
+}
+
+.price {
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.price h1, .price h2 {
+    text-align: right;
+    color: white;
+}
+
+.price h2 {
+    font-size: 18px;
+}
+
+.price h1 {
+    font-size: 30px;
+}
+
+.checkout-form {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4vh;
+    padding-top: 2vh;
+}
+
+.form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.col1, .col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.checkout-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.checkout-form input[type="text"],
+input[type="email"],
+input[type="tel"],
+button {
+    width: 100%;
+    padding: 12px 4px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.checkout-form button {
+    width: 100%;
+    margin: 5px 0 0;
+}
