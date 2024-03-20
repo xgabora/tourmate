@@ -4,12 +4,12 @@ Web application TourMate made for WTECH_B 2023/24. Made by **Ján Pačuta** and 
 # Requirements met:
 
 ## 1. fáza projektu (max. 24 bodov)
-- **DONE ✓** - skice všetkých obrazoviek používateľského rozhrania pre dané prípady použitia **(6 bodov)**
-- šablóny vytvorené pre všetky požadované prípady použitia **(5 bodov)**
-- responzívny dizajn **(5 bodov)**
-- správne použitie HTML5 elementov **(4 body)**
-- formátovanie a logická štruktúra zdrojového kódu, konzistencia/jednotná konvencia pri názvosloví identifikátorov **(2 body)**
-- UML diagram fyzického dátového modelu **(2 body)**
+- **DONE ✓** - skice všetkých obrazoviek používateľského rozhrania pre dané prípady použitia **(6 bodov)** - [link](https://www.figma.com/file/CdZdnjo6eL6yt2J2UhkmUb/TourMate-page-design?type=design&node-id=0%3A1&mode=design&t=0OFna8XTqlXsJRFi-1)
+- **DONE ✓** šablóny vytvorené pre všetky požadované prípady použitia **(5 bodov)**
+- **DONE ✓** responzívny dizajn **(5 bodov)**
+- **DONE ✓** správne použitie HTML5 elementov **(4 body)**
+- **DONE ✓** formátovanie a logická štruktúra zdrojového kódu, konzistencia/jednotná konvencia pri názvosloví identifikátorov **(2 body)**
+- **DONE ✓** UML diagram fyzického dátového modelu **(2 body)**
 
 ## 2. fáza projektu - Klientská časť (max. 14 bodov)
 - zoznam produktov (filter, preusporadúvanie, stránkovanie) **(2 body)**
