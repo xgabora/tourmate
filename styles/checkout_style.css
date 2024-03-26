@@ -80,7 +80,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
+    background-image: url('../images/gradient_white.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

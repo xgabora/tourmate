@@ -17,7 +17,7 @@
 }
 
 .column2 {
-    margin-right: 0; /* No margin on the right for the second column */
+    margin-right: 0;
 }
 
 label {
@@ -41,7 +41,7 @@ textarea {
 }
 
 textarea {
-    height: 150px; /* Tall text input for description */
+    height: 150px;
 }
 
 button[type="submit"] {

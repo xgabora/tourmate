@@ -29,8 +29,8 @@ body {
     background-image: url("../images/TM background.svg");
     background-size: cover;
     color: #FEFEFE;
-    width: 100%; /* Set to desired width, can be in percentage or pixels */
-    margin: 0 auto; /* This centers the section on the page */
+    width: 100%;
+    margin: 0 auto;
 }
 
 .popular h1 {
@@ -43,27 +43,27 @@ body {
 .homepage-search {
     margin-top: 20px;
     border-radius: 15px;
-    border-width: 0px;
+    border-width: 0;
     width: 70%;
     height: 50px;
-    padding: 5px 5px 5px 20px; /* Adjust left padding if needed */
-    line-height: 50px; /* Same as the height for vertical centering */
+    padding: 5px 5px 5px 20px;
+    line-height: 50px;
     font-size: 20px;
-    text-align: center; /* For horizontal centering */
+    text-align: center;
 }
 
 .homepage-search input {
-    box-shadow: 0 6px 6px -2px rgba(0,0,0,0.3); /* Optional: Adds subtle shadow for depth */
+    box-shadow: 0 6px 6px -2px rgba(0,0,0,0.3);
 }
 
 
 .tours-container {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 50px;
     display: flex;
-    align-items: flex-start; /* Align items to the start (left) */
-    flex-wrap: wrap; /* Allows the cards to wrap to the next line on smaller screens */
-    justify-content: flex-start; /* Align the items to the left */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
 }
 
@@ -71,7 +71,7 @@ body {
     margin: 10px;
     background: white;
     border-radius: 15px;
-    box-shadow: 0 10px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,0.5);
 }
 
 .tour-card:hover {
@@ -84,22 +84,22 @@ body {
     color: #666666;
     padding-left: 12px;
     font-size: 14px;
-    margin: 0px;
+    margin: 0;
 }
 
 .tour-card h1 {
     color: #2D033C;
     padding-left: 12px;
     font-size: 20px;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 .tour-card-btn {
-    color: #FFFFFF; /* Set text color to white */
+    color: #FFFFFF;
     font-family: "Readex Pro", sans-serif;
     font-weight: 800;
     cursor: pointer;
-    background-image: linear-gradient(135deg, #8050C2, #2D033C); /* Gradient at 45 degrees */
+    background-image: linear-gradient(135deg, #8050C2, #2D033C);
     border: none;
     padding: 12px 20px;
     border-radius: 12px;
@@ -117,7 +117,7 @@ body {
 }
 
 .tour-card-btn:hover {
-    background-image: linear-gradient(135deg, #2f105b, #030003); /* Gradient at 45 degrees */
+    background-image: linear-gradient(135deg, #2f105b, #030003);
 }
 
 .tour-card-image {
@@ -142,7 +142,7 @@ body {
 }
 
 .dark {
-    /* Your existing styles for dark class */
+
 }
 
 .image-row {
@@ -156,25 +156,25 @@ body {
 }
 
 .image-container img {
-    width: 100%; /* Adjust the width as needed */
+    width: 100%;
     height: auto;
-    border-radius: 5px; /* Optional for rounded corners */
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
 }
 
 .image-container:hover {
-    transform: scale(1.03); /* Slightly enlarge the card on hover */
+    transform: scale(1.03);
 }
 
 .overlay-text {
     position: absolute;
     font-family: "Readex Pro", sans-serif;
     font-weight: 600;
-    bottom: 15px; /* Position at the bottom-left */
+    bottom: 15px;
     left: 15px;
-    color: white; /* Text color */
+    color: white;
     padding: 5px;
-    border-radius: 5px; /* Optional for rounded text background */
+    border-radius: 5px;
     font-size: 30px;
 }
 
@@ -189,7 +189,7 @@ footer {
 }
 
 footer .logo {
-    width: 200px; /* Adjust the size of the logo as needed */
+    width: 200px;
     height: auto;
 }
 
@@ -200,13 +200,13 @@ footer section {
 }
 
 footer section h3 {
-    margin-bottom: 10px; /* Space below the heading */
+    margin-bottom: 10px;
 }
 
 footer section a {
     text-decoration: none;
-    color: #FEFEFE; /* Link color */
-    margin-bottom: 5px; /* Space between links */
+    color: #FEFEFE;
+    margin-bottom: 5px;
 }
 
 footer .col2 {
@@ -221,12 +221,12 @@ footer .col2 {
 footer .col2 > section {
     display: flex;
     flex-direction: column;
-    margin-right: 20px; /* Space between genre columns */
+    margin-right: 20px;
 }
 
 footer .col3 {
     display: flex;
-    justify-content: space-between; /* Social links in one row */
+    justify-content: space-between;
 }
 
 .social-icons {
@@ -253,16 +253,16 @@ footer a:hover {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 65%; /* Set the width of the card */
-    border-radius: 10px; /* Adjust the border radius as needed */
-    background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
-    /* Additional background properties if needed */
+    width: 65%;
+    border-radius: 10px;
+    background-image: url('../images/gradient_white.svg');
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    border: 1px solid #2D033C; /* Adds a 1px black stroke */
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    border: 1px solid #2D033C;
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
     margin-bottom: 30px;
 }
 
@@ -272,26 +272,26 @@ footer a:hover {
 
 .popular-tour-left {
     display: flex;
-    flex-direction: row; /* Align children in a row */
-    align-items: center; /* Vertically center-align children */
+    flex-direction: row;
+    align-items: center;
     margin-left: 0;
-    max-width: 60%; /* Adjust this value as needed */
+    max-width: 60%;
 }
 
 .popular-tour-left > h1,
 .popular-tour-left > img,
 .popular-tour-left > .popular-tour-card-description,
 .popular-tour-card-buttons {
-    flex: 0 0 auto; /* Don't grow, don't shrink, base width on content */
-    display: flex; /* Make each child a flex container */
-    flex-direction: column; /* Stack the content of each child in a column */
-    justify-content: center; /* Center the content vertically */
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 .popular-tour-left > img {
-    width: 180px; /* Adjust image width as needed */
-    height: auto; /* Adjust image height as needed */
+    width: 180px;
+    height: auto;
     padding: 10px;
     border-radius: 1vw;
     margin-left: 6%;
@@ -323,20 +323,20 @@ footer a:hover {
 }
 
 .popular-tour-card-description p {
-    max-width: 45%; /* Adjust this value as needed for your layout */
-    text-align: justify; /* This will justify your paragraph text */
-    margin: 6px 0 0 0; /* Example margin, adjust as needed */
-    line-height: 1.2; /* Adjusts the line height for better readability */
+    max-width: 45%;
+    text-align: justify;
+    margin: 6px 0 0 0;
+    line-height: 1.2;
     font-size: 12px;
     word-wrap: break-word;
 }
 
 .dark-button {
-    color: #FFFFFF; /* Set text color to white */
+    color: #FFFFFF;
     font-family: "Readex Pro", sans-serif;
     font-weight: 800;
     cursor: pointer;
-    background-image: linear-gradient(135deg, #8050C2, #2D033C); /* Gradient at 45 degrees */
+    background-image: linear-gradient(135deg, #8050C2, #2D033C);
     border: none;
     padding: 12px 20px;
     border-radius: 12px;
@@ -354,11 +354,11 @@ footer a:hover {
 }
 
 .dark-button:hover {
-    background-image: linear-gradient(135deg, #2f105b, #030003); /* Gradient at 45 degrees */
+    background-image: linear-gradient(135deg, #2f105b, #030003);
 }
 
 .light-button {
-    color: #2D033C; /* Set text color to white */
+    color: #2D033C;
     font-family: "Readex Pro", sans-serif;
     font-weight: 800;
     cursor: pointer;
@@ -380,49 +380,49 @@ footer a:hover {
 }
 
 .light-button:hover {
-    background-image: linear-gradient(135deg, #2f105b, #030003); /* Gradient at 45 degrees */
+    background-image: linear-gradient(135deg, #2f105b, #030003);
     color: #FEFEFE;
 }
 
 .lightblue-card {
-    width: 65%; /* Set the width of the card */
-    border-radius: 10px; /* Adjust the border radius as needed */
-    background-image: url('../images/gradient_white.svg'); /* Path to your SVG file */
-    /* Additional background properties if needed */
+    width: 65%;
+    border-radius: 10px;
+    background-image: url('../images/gradient_white.svg');
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    border: 1px solid #2D033C; /* Adds a 1px black stroke */
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    border: 1px solid #2D033C;
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
 .tour-detail-header {
     display: flex;
-    flex-direction: column; /* Stacks children in a column */
-    align-items: center; /* Centers children horizontally */
-    justify-content: center; /* Centers children vertically */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .tour-detail-header img {
-    width: 280px; /* Ensures image does not overflow its container */
+    width: 280px;
     height: auto;
     border-radius: 1.5vw;
 }
 
 .tour-detail-header {
     display: flex;
-    flex-direction: row; /* Aligns children in a row */
-    justify-content: center; /* Centers children horizontally */
-    align-items: center; /* Centers children vertically */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .tour-detail-description {
     display: flex;
-    flex-direction: column; /* Stacks description items in a column */
-    align-items: start; /* Aligns description items to the start */
+    flex-direction: column;
+    align-items: start;
     margin-left: 5%;
 }
 
@@ -450,27 +450,27 @@ footer a:hover {
 }
 
 .tour-detail-description p {
-    text-align: justify; /* This will justify your paragraph text */
-    margin: 6px 0 0 0; /* Example margin, adjust as needed */
-    line-height: 1.2; /* Adjusts the line height for better readability */
+    text-align: justify;
+    margin: 6px 0 0 0;
+    line-height: 1.2;
     font-size: 18px;
 }
 
 .tour-detail-event-card {
     display: flex;
-    justify-content: space-between; /* Places children at opposite ends */
+    justify-content: space-between;
     align-items: center;
     background: #fefefe;
     margin-top: 30px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow     for depth */
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 .tour-detail-left {
     display: flex;
-    align-items: center; /* Aligns children vertically */
+    align-items: center;
 }
 
 .tour-detail-left h3, h2, h1 {
@@ -479,15 +479,15 @@ footer a:hover {
 
 .tour-detail-left > section:first-child {
     display: flex;
-    flex-direction: column; /* Stacks time/date in a column */
-    align-items: center; /* Centers time/date */
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Styling for the vertical delimiter */
+
 .vertical-delimiter {
-    border-left: 1px solid #000; /* Example: solid black line */
-    height: 60px; /* Adjust as needed */
-    margin: 0 20px; /* Spacing around the delimiter */
+    border-left: 1px solid #000;
+    height: 60px;
+    margin: 0 20px;
 }
 
 .tour-detail-button {
@@ -544,12 +544,12 @@ footer a:hover {
 .lightblue-card.login-form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Aligns children (form elements) in the center */
-    justify-content: center; /* Centers content vertically */
+    align-items: center;
+    justify-content: center;
     padding-top: 50px;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    background-color: #f0faff; /* Example background color */
+    background-color: #f0faff;
     margin: auto;
     width: 35%;
     text-align: center;
@@ -557,12 +557,12 @@ footer a:hover {
 
 .lightblue-card.login-form input[type="text"],
 .lightblue-card.login-form input[type="password"] {
-    width: 50%; /* Full width of the container */
+    width: 50%;
     padding: 15px;
-    margin-bottom: 10px; /* Space between elements */
-    border-radius: 12px; /* Rounded corners */
+    margin-bottom: 10px;
+    border-radius: 12px;
     border: 1px solid #999999;
-    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.5); /* Optional: Adds subtle shadow for depth */
+    box-shadow: 0 3px 3px -2px rgba(0,0,0,0.5);
 }
 
 #recover-email-form {
@@ -586,11 +586,11 @@ footer a:hover {
 }
 
 .lightblue-card.login-form p span {
-    display: inline; /* Keeps the span inline with the paragraph */
+    display: inline;
 }
 
 .lightblue-card.login-form a {
-    color: #2D033C; /* Link color */
+    color: #2D033C;
 }
 
 .login-heading {
